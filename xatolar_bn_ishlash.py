@@ -79,5 +79,4 @@ for meva in mevalar:
                                                             #yani print("Dastur tugadi.") ni chapga bir tab orqaga surish kerak.
                                                             
                                                             
-
-                                                            
+                                                          
