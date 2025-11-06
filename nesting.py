@@ -143,8 +143,8 @@ hamkasblar = {
     },
 }
 
-for ism, info in hamkasblar.items():
-    print(f"\n{ism.title()} {info['familiya'].title()}:")
+for ism, info in hamkasblar.items():                               # items - kalit va qiymatni olib beradi
+    print(f"\n{ism.title()} {info['familiya'].title()}:")          # info - lug'at
     print(f"Yoshi: {info['yosh']}")
     print(f"Ma'lumoti: {info['malumot']}")
     print("Dasturlash tillari:")
