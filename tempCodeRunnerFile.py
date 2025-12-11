@@ -1,1 +1,0 @@
-mevalar = list(filter(lambda meva: meva.startswith(harf), mevalar)) 
