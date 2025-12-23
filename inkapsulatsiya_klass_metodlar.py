@@ -30,7 +30,7 @@
 
 from uuid import uuid4
 class Avto:
-    num_avto = 0
+    __num_avto = 0
     def __init__(self, make, model, rang, yil, narh, km=0,):
         """Avtomobilning xususiyatlari"""
         self.make = make
@@ -40,7 +40,7 @@ class Avto:
         self.narh = narh
         self.__km = km
         self.__id = uuid4()
-        Avto.num_avto += 1
+        Avto.__num_avto += 1
         
     @classmethod
     def get_num_avto(cls):
