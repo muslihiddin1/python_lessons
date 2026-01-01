@@ -78,5 +78,5 @@ for meva in mevalar:
                                                             #agar faqat oxirida chiqishini istasak, uni for tsiklidan tashqarida yozish kerak. 
                                                             #yani print("Dastur tugadi.") ni chapga bir tab orqaga surish kerak.
                                                             
-                                                            
-                                                          
+                                        
+                                    
